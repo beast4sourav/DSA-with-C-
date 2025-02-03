@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
- void print2(){
-    for(int i=0; i<4; i++){
+ void print2(int n){
+    for(int i=0; i<n; i++){
         for(int j=0; j<=i; j++){
             cout<<"*";
         }
@@ -11,6 +11,8 @@ using namespace std;
  }
 
  int main(){
-    print2();
+    int n;
+    cin>>n;
+    print2(n);
     return 0;
  }

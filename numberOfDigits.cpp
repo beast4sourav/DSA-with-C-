@@ -5,7 +5,6 @@ int countNum1(int n)
     int count = (int) (log10(n) + 1);
     return count;
 }
-
 //second way to count the number
 int countDigits(int n)
 {
@@ -18,5 +17,4 @@ int countDigits(int n)
     }
     return count;
 }
-
 //time complexity is o(log10(n))

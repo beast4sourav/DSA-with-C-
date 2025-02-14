@@ -10,6 +10,6 @@ void test(int count){
 }
 
 int main() {
-    test(0);  // Start the count from 0
+    test(0);  
     return 0;
 }
